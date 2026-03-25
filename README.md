@@ -44,8 +44,6 @@ Drop all four files into a directory on your web server. No database or addition
 
 These files are intentionally self-contained with no external includes or stylesheets, so they will work out of the box but will look unstyled. To integrate into an existing site, add your own stylesheet link and any shared includes (header, navigation, footer) to each file as needed.
 
-If your calculator files live in a subdirectory, use root-relative paths (e.g. `/menu.php`) or `__DIR__`-relative includes (e.g. `include(__DIR__ . '/../menu.php')`) rather than bare relative paths, to ensure includes resolve correctly regardless of the calling URL.
-
 ---
 
 ## Security Notes

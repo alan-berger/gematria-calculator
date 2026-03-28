@@ -4,6 +4,13 @@ A PHP-based Gematria calculator using the following encoding:
 
 **a=6, b=12, c=18, d=24, e=30, f=36** — each letter of the alphabet is assigned a value in multiples of 6, up to z=156.
 
+![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![No Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
+![Security](https://img.shields.io/badge/security-input%20validation%20%2B%20upload%20hardening-brightgreen)
+![Modes](https://img.shields.io/badge/modes-single%20%7C%20bulk%20upload-informational)
+![Deploy](https://img.shields.io/badge/deploy-drop--in%2C%20no%20database-lightgrey)
+
 Originally built in the early 2000s out of curiosity after discovering that _computer_ = 666 using this encoding as a teenager. Statistically, given the distribution of letter frequencies and word lengths, any given value will match hundreds of words in a typical dictionary — the results are a curiosity rather than meaningful numerology.
 
 ---
